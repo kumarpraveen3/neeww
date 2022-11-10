@@ -1,0 +1,48 @@
+ ----------------------------- ------push code camannd---------------------------------------------------------------
+
+		**gmail and name enter***
+
+git config --global user.name "kumarpraveen3"
+ 
+
+git config --global user.email "praveenkumar100700@gmail.com"
+	
+ -----------------------------------------           **check name and mail enter ******
+
+git config --global user.name
+
+ ------------------------------------------------------****coment code****
+
+git commit -m "first commit"
+
+-------------------------------------------------------***check all coment****
+git log
+
+---------------------------------------------------****run comand***------
+git remote -v
+git remote add origin https://github.com/kumarpraveen3/weather-app.git
+git remote -v
+git branch -M main
+git push -u origin main
+
+
+====================*******live project code******************************
+
+--------------------------------------------*****enter this code package.js**************
+
+  "homepage": "https://myusername.github.io/my-app",  
+
+---------------------------------------------- *************run this ******
+
+npm install --save gh-pages
+
+-----------------------------------------************type this code in script/************
+
+   "scripts": {
++   "predeploy": "npm run build",
++   "deploy": "gh-pages -d build",
+    
+
+
+--------------------------------------------******run commaned******************
+npm run deploy
